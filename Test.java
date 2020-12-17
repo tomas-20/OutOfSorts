@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Test {
   private static void test(int[] arr) {
-    Sorts.bubbleSort(arr);
+    Sorts.selectionSort(arr);
     System.out.println(Arrays.toString(arr));
     System.out.println();
   }
